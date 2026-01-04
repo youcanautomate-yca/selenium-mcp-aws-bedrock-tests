@@ -376,15 +376,12 @@ Find the 'Add to Cart' button and click it
 ```
 selenium-mcp-aws-bedrock-tests/
 ├── bedrock_browser_automation.py    ← Main automation script
-├── convert_to_selenium_test.py      ← Convert logs to reusable tests
 ├── mcp-selenium-server.js           ← MCP server wrapper
 ├── src/
 │   ├── bedrock.py                   ← AWS Bedrock integration
 │   └── __init__.py
 ├── prompts/
 │   ├── browser_automation.txt        ← Example prompts
-│   ├── simple_test.txt
-│   └── wikipedia_test.txt
 ├── requirements.txt                 ← Python dependencies
 ├── package.json                     ← Node.js dependencies
 ├── .env                            ← Your AWS credentials (KEEP SECRET!)
@@ -465,27 +462,6 @@ ValidationException: Could not find a model
 1. Check your AWS region has Bedrock enabled
 2. Go to https://console.aws.amazon.com/bedrock/
 3. Verify you have access to Claude 3.5 Sonnet model
-
----
-
-## 📚 Advanced Features
-
-### Convert Execution to Selenium Test
-
-After running automation, convert the execution to a reusable test:
-
-```bash
-# Run automation and save output
-python bedrock_browser_automation.py --prompt-file prompts/test.txt > execution.log
-
-# Convert to Selenium test
-python convert_to_selenium_test.py \
-  --input execution.log \
-  --output generated_test.py \
-  --test-name MyTest
-```
-
-Now you have `generated_test.py` that runs without Bedrock!
 
 ---
 

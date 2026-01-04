@@ -1,7 +1,7 @@
 Open a Chrome browser and navigate to https://www.amazon.in
 1. Wait for home page to load
 2. Find and click the search bar at the top of the page
-3. Enter the text "woodland shoe" in the search bar and press Enter
+3. Enter the text "iPhone 16" in the search bar and press Enter
 4. Wait for the results to appear
 5. Click on the first product from results
 6. Wait for the product page to load
