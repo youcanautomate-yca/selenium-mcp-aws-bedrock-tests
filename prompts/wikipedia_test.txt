@@ -1,4 +1,0 @@
-Open Chrome and navigate to https://www.wikipedia.org
-1. Search for "Artificial Intelligence" using the search box
-2. Get the page title to confirm the search was successful
-3. Close the browser
