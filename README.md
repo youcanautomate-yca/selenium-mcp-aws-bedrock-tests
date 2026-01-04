@@ -88,7 +88,7 @@ Expected output: `v18.x.x` or higher for both
 
 **Option A: Using Git (if you have Git installed)**
 ```bash
-git clone https://github.com/youcanutomate/selenium-mcp-aws-bedrock-tests.git
+git clone https://github.com/youcanautomate-yca/selenium-mcp-aws-bedrock-tests.git
 cd selenium-mcp-aws-bedrock-tests
 ```
 
