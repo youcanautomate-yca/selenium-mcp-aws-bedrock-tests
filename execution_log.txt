@@ -1,0 +1,43 @@
+🔧 Executing tool: start_browser
+   Parameters: {"browser": "chrome"}
+   ✓ Success: Browser started
+
+🔧 Executing tool: navigate
+   Parameters: {"url": "https://www.amazon.in"}
+   ✓ Success: Navigated to page
+
+🔧 Executing tool: find_element
+   Parameters: {"by": "id", "value": "twotabsearchtextbox", "timeout": 10000}
+   ✓ Success: Element found
+
+🔧 Executing tool: click_element
+   Parameters: {"by": "id", "value": "twotabsearchtextbox"}
+   ✓ Success: Element clicked
+
+🔧 Executing tool: send_keys
+   Parameters: {"by": "id", "value": "twotabsearchtextbox", "text": "woodland shoe"}
+   ✓ Success: Text sent
+
+🔧 Executing tool: press_key
+   Parameters: {"key": "Return"}
+   ✓ Success: Key pressed
+
+🔧 Executing tool: find_element
+   Parameters: {"by": "css", "value": "div[data-component-type='s-search-result']", "timeout": 15000}
+   ✓ Success: Element found
+
+🔧 Executing tool: click_element
+   Parameters: {"by": "css", "value": "div[data-component-type='s-search-result'] h2 a"}
+   ✓ Success: Element clicked
+
+🔧 Executing tool: find_element
+   Parameters: {"by": "id", "value": "productTitle", "timeout": 15000}
+   ✓ Success: Element found
+
+🔧 Executing tool: get_element_text
+   Parameters: {"by": "id", "value": "productTitle"}
+   ✓ Success: Woodland Shoe - Product Details Page
+
+🔧 Executing tool: close_session
+   Parameters: {}
+   ✓ Success: Session closed
