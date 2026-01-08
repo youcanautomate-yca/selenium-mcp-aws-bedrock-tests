@@ -6,6 +6,9 @@ Combine the power of AWS Bedrock AI with Selenium WebDriver for intelligent, sel
 
 ---
 
+## Complete implementation video:
+- https://youtu.be/67bi5PSiKAU
+
 ## 🎯 What Does This Project Do?
 
 This project allows you to:
