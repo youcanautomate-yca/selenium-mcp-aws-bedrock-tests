@@ -1,8 +1,7 @@
 # 🤖 Selenium MCP AWS Bedrock Tests
 
 **AI-Powered Browser Automation Framework**
-
-Combine the power of AWS Bedrock AI with Selenium WebDriver for intelligent, self-directing browser automation. Instead of writing complex test scripts, simply describe what you want automated and let AI handle the execution!
+This repository makes browser automation very simple by integrating Selenium Model Context Protocol(MCP) with AWS Bedrock, self-directing browser automation. Instead of writing complex test scripts, simply describe what you want automated and let AI handle the execution!
 
 ---
 
